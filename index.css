@@ -1,0 +1,70 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*margin: auto;*/
+  /*position: relative;*/
+  /*width: 960px;*/
+}
+
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+path {
+  stroke: #fff;
+  fill-rule: evenodd;
+}
+
+#main {
+  /*float: left;*/
+  /*width: 1080px;*/
+}
+
+#sidebar {
+  float: right;
+  width: 100px;
+}
+
+#sequence {
+  /*width: 1500px;*/
+  /*height: 70px;*/
+}
+
+#legend {
+  padding: 10px 0 0 3px;
+}
+
+#sequence text, #legend text {
+	float: left;
+  font-weight: 500;
+  font-size: 11px;
+  fill: #fff;
+}
+
+#chart {
+  float: left;
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  /*width: 1000px;*/
+}
+
+#chart path {
+	float: left;
+  stroke: #fff;
+}
+
+#explanation {
+  position: absolute;
+  top: 260px;
+  left: 305px;
+  width: 140px;
+  text-align: center;
+  color: #666;
+  z-index: -1;
+}
+
+#percentage {
+  font-size: 2.5em;
+}
